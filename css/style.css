@@ -9,3 +9,7 @@
     left: 0;
     position: absolute;
 }
+.navigationItem{
+    font-size: x-large;
+    font-weight: bolder;
+}

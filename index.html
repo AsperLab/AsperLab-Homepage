@@ -6,44 +6,38 @@
     <title>Asper Lab</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+    <link rel="stylesheet" href="js/jquery-1.11.1.min.js">
     <link rel="stylesheet" href="css/style.css"/>
     <script type='text/javascript' src='js/jquery.particleground.js'></script>
     <script type='text/javascript' src='js/home.js'></script>
 </head>
 
 <body>
-<section class="hero is-primary" style="height:100%;">
+<section class="hero is-primary">
     <div id="particles"></div>
     <div class="hero-head">
         <nav class="navbar level">
             <div class="container">
-
                 <div class="navbar-brand">
-                    <a class="level-item"  href="../">
+                    <a class="level-item" href="#">
                         <img src="images/logo.png" width=250px alt="Logo">
                     </a>
+                    <span class="navbar-burger burger" data-target="navbarMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
 
-                    <span id="hamburger-menu" class="navbar-burger burger" data-target="navbarMenuHeroB">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                      </span>
                 </div>
 
-                <div id="navbarMenuHeroB" class="navbar-menu">
-                    <div class="navbar-end level-item">
-                        <a class="navbar-item is-active">
-                            Home
-                        </a>
-                        <a class="navbar-item level-item">
-                            Examples
-                        </a>
-                        <a class="navbar-item level-item">
-                            Documentation
-                        </a>
-                        <a class="navbar-item" href="https://github.com/AsperLab">
+                <div id="navbarMenu" class="navbar-menu">
+                    <div class="navbar-end">
+                        <a class="navbar-item is-active navigationItem" href="#">Home</a>
+                        <a class="navbar-item navigationItem" href="#">Examples</a>
+                        <a class="navbar-item navigationItem" href="#">Documentation</a>
+                        <a class="navbar-item navigationItem" href="https://github.com/AsperLab">
                             <span class="icon">
-                            <i class="fa fa-github"></i></span> Github
+                            <i class="fa fa-github"></i></span><span>&nbsp;Github</span>
                         </a>
                     </div>
                 </div>
