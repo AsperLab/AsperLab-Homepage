@@ -6,47 +6,45 @@
     <title>Asper Lab</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
-    <link rel="stylesheet" href="js/jquery-1.11.1.min.js">
     <link rel="stylesheet" href="css/style.css"/>
+    <script rel="text/javascript" src="js/jquery-1.11.1.min.js"></script>
     <script type='text/javascript' src='js/jquery.particleground.js'></script>
     <script type='text/javascript' src='js/home.js'></script>
+    <script type='text/javascript' src='js/navMenuListener.js'></script>
 </head>
 
 <body>
-<section class="hero is-primary">
+<section class="hero is-primary section" style="height: 100%">
     <div id="particles"></div>
-    <div class="hero-head">
-        <nav class="navbar level">
+    <div class="hero-head" >
+        <nav class="navbar is-fixed-top">
             <div class="container">
-                <div class="navbar-brand">
+                <div class="navbar-brand" >
                     <a class="level-item" href="#">
                         <img src="images/logo.png" width=250px alt="Logo">
                     </a>
-                    <span class="navbar-burger burger" data-target="navbarMenu">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-
+                    <div class="navbar-burger burger" data-target="navbarMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
 
                 <div id="navbarMenu" class="navbar-menu">
                     <div class="navbar-end">
                         <a class="navbar-item is-active navigationItem" href="#">Home</a>
                         <a class="navbar-item navigationItem" href="#">Examples</a>
-                        <a class="navbar-item navigationItem" href="#">Documentation</a>
+                        <a class="navbar-item navigationItem" href="#">About Us</a>
                         <a class="navbar-item navigationItem" href="https://github.com/AsperLab">
                             <span class="icon">
                             <i class="fa fa-github"></i></span><span>&nbsp;Github</span>
                         </a>
+                        <a class="navbar-item navigationItem" href="#">Contact Us</a>
                     </div>
                 </div>
             </div>
         </nav>
     </div>
-
-    <div class="hero-body"></div>
-
 </section>
 </body>
 </html>
